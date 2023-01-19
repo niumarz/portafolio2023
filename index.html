@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Urbanist:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Niumar Zerpa</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <header class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__logo">
+          <a class="navbar__link" href="#">
+            <i class="bx bx-expand-horizontal navbar__icon"></i>
+            <span class="navbar__name">NiumarZ.</span>
+          </a>
+        </div>
+        <div id="menu" class="navbar__menu">
+          <i id="btnClose" class="bx bx-x navbar__icon btn--close"></i>
+          <nav class="navbar__list">
+            <a class="navbar__link hvr-underline-from-left" href="#home"
+              >Home</a
+            >
+            <a class="navbar__link hvr-underline-from-left" href="#about"
+              >Sobre mí</a
+            >
+            <a class="navbar__link hvr-underline-from-left" href="#habilities"
+              >Habilidades</a
+            >
+            <a class="navbar__link hvr-underline-from-left" href="#portfolio"
+              >Portafolio</a
+            >
+            <a class="navbar__link hvr-underline-from-left" href="#contact"
+              >Contacto</a
+            >
+          </nav>
+        </div>
+        <div class="navbar__button">
+          <i id="btnOpen" class="bx bx-menu navbar__icon btn--open"></i>
+        </div>
+      </div>
+    </header>
+    <main class="wrapper">
+      <section id="home" class="home">
+        <h1 class="home__title bkmove">
+          Hola,
+          <br />
+          soy Niumar,<br />
+          Desarrollador FullStack
+        </h1>
+        <h2
+          class="home__subtitle wow animate__animated animate__jello animate__delay-1s"
+        >
+          Frontend &amp; Backend Developer
+        </h2>
+        <div
+          class="home__box-icon wow animate__animated animate__swing animate__delay-1s"
+        >
+          <a
+            class="home__icon"
+            href="https://www.linkedin.com/in/niumar-zerpa/"
+            target="_blank"
+            ><i class="home__icon bi bi-linkedin"></i
+          ></a>
+          <a
+            class="home__icon"
+            href="https://github.com/niumarz"
+            target="_blank"
+            ><i class="home__icon bi bi-github"></i
+          ></a>
+        </div>
+        <a href="#contact"><button class="btn style-btn">CONTACTAME</button></a>
+      </section>
+      <section id="about" class="about">
+        <div class="about__box">
+          <h2
+            class="about__title wow animate__animated animate__rotateInDownLeft animate__delay-1s textgradient"
+          >
+            Sobre mi
+          </h2>
+          <p
+            class="about__p wow animate__animated animate__lightSpeedInLeft animate__delay-1s"
+          >
+          Mi nombre es Niumar Zerpa, Soy programador Full-Stack egresado de Academlo, soy muy apasionado y entusiasta en el uso de la tecnología para resolver los problemas y ambiciones de mi vida. No doy las cosas por sentado, por eso estoy constantemente innovando, aprendiendo y probando nuevas formas de lograr mis objetivos con calidad y armonía. Nunca dejo de buscar nuevas y mejores maneras de cumplir mi trabajo. Exploro, combino y construyo. Amante a todos los deportes sobretodo el beisbol y basquet, me gusta la música, caminar y conocer.
+          </p>
+          <a
+            class="btn-about"
+            href="./assets/document/CV-FullStack.pdf"
+            target="_blank"
+            ><button class="btn style-btn">DESCARGAR CV</button></a
+          >
+        </div>
+        <div class="about__box-img">
+          <img
+            class="img__about wow animate__animated animate__jackInTheBox animate__delay-1s"
+            src="./assets/img/fporta.png"
+            alt="selfie Niumar Zerpa"
+          />
+        </div>
+      </section>
+      <section id="habilities" class="habilities">
+        <h2
+          class="habilities__title wow animate__animated animate__rotateInDownLeft animate__delay-1s textgradient"
+        >
+          Mis Habilidades
+        </h2>
+        <div class="container__cards">
+          <div class="card__habilities">
+            <h2 class="card__title">HTML5</h2>
+            <img
+              class="img__habilities"
+              src="./assets/img/html-5.png"
+              alt="logo html5"
+            />
+            <h3 class="card__subtitle">Certificados:</h3>
+            <ul class="card__list">
+              <li class="card__item">
+                <a
+                  class="card__link"
+                  href="https://certificates.academlo.com/en/verify/47063034233414"
+                  target="_blank"
+                  >Academlo</a
+                >
+              </li>
+
+            </ul>
+          </div>
+          <div class="card__habilities">
+            <h2 class="card__title">CSS3</h2>
+            <img
+              class="img__habilities"
+              src="./assets/img/css-3.png"
+              alt="logo css3"
+            />
+            <h3 class="card__subtitle">Certificados:</h3>
+            <ul class="card__list">
+              <li class="card__item">
+                <a
+                  class="card__link"
+                  href="https://certificates.academlo.com/en/verify/47063034233414"
+                  target="_blank"
+                  >Academlo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="card__habilities">
+            <h2 class="card__title">JAVASCRIPT</h2>
+            <img
+              class="img__habilities"
+              src="./assets/img/java-script.png"
+              alt="logo javascript"
+            />
+            <h3 class="card__subtitle">Certificados:</h3>
+            <ul class="card__list">
+              <li class="card__item">
+                <a
+                  class="card__link"
+                  href="https://certificates.academlo.com/en/verify/47063034233414"
+                  target="_blank"
+                  >Academlo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="card__habilities">
+            <h2 class="card__title">REACT</h2>
+            <img
+              class="img__habilities"
+              src="./assets/img/react.png"
+              alt="logo React"
+            />
+            <h3 class="card__subtitle">Certificados:</h3>
+            <ul class="card__list">
+              <li class="card__item">
+                <a
+                  class="card__link"
+                  href="https://certificates.academlo.com/en/verify/42499305721362"
+                  target="_blank"
+                  >Academlo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="card__habilities">
+            <h2 class="card__title">NODEJS</h2>
+            <img
+              class="img__habilities"
+              src="./assets/img/nodejs.png"
+              alt="logo Python"
+            />
+            <h3 class="card__subtitle">Certificados:</h3>
+            <ul class="card__list">
+              <li class="card__item">
+                <a
+                  class="card__link"
+                  href=""
+                  target="_blank"
+                  >Academlo</a
+                >
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="portfolio">
+        <h2
+          class="portfolio__title wow animate__animated animate__rotateInDownLeft animate__delay-1s textgradient"
+        >
+          Portafolio
+        </h2>
+        <div class="card__box-portfolio">
+          <div class="card">
+            <div class="front">
+              <h2 class="port__title">Poke App</h2>
+              <img
+                class="img__port"
+                src="./assets/img/pokeapp.png"
+                alt="screenshot de la aplicacion"
+              />
+              <p class="port__description">
+                Poke app permite interactuar con todos los Pokémon existentes y que son consumidos desde la API oficial realizando las peticiones mediante Axios, se utilizó React Router y su opción de rutas protegidas para forzar el registro virtual del usuario con su nombre.
+              </p>
+            </div>
+            <div class="back">
+              <a
+                class="link__port"
+                href=""
+                target="_blank"
+                ><i class="bi bi-browser-chrome icon-port"></i>
+                <h2 class="subtitle__port">
+                  Desplegar <br />
+                  proyecto
+                </h2></a
+              >
+              <a
+                class="link__port"
+                href=""
+                target="_blank"
+                ><i class="bi bi-github icon-port"></i>
+                <h2 class="subtitle__port">
+                  Abrir <br />
+                  codigo
+                </h2></a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <h2 class="port__title">App Rick and Morty</h2>
+              <img
+                class="img__port"
+                src="./assets/img/rickyandomorty.png"
+                alt="screenshot de la aplicacion"
+              />
+              <p class="port__description">
+                Permite explorar los diferentes universos de la serie, esta página cosume una API pública de Rick and Morty realizando las peticiones mediante Axios.
+                La app fue construida haciendo uso de React Hooks, Css y  Componentes para darle estructura y orden.
+              </p>
+            </div>
+            <div class="back">
+              <a
+                class="link__port"
+                href="https://rickandmorty-nz.netlify.app/"
+                target="_blank"
+                ><i class="bi bi-browser-chrome icon-port"></i>
+                <h2 class="subtitle__port">
+                  Desplegar <br />
+                  proyecto
+                </h2></a
+              >
+              <a
+                class="link__port"
+                href="https://github.com/niumarz/rickandmorty-nz.git"
+                target="_blank"
+                ><i class="bi bi-github icon-port"></i>
+                <h2 class="subtitle__port">
+                  Abrir <br />
+                  codigo
+                </h2></a
+              >
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="front">
+              <h2 class="port__title">App Weather</h2>
+              <img
+                class="img__port"
+                src="./assets/img/weatherapp.png"
+                alt="screenshot de la aplicacion"
+              />
+              <p class="port__description">
+                Es una aplicacion para usuarios que pronostica el tiempo segun la localidad, como característica principal mide en grados Fahrenheit y grados Celsius.
+                Ademas se puede ver la velocidad del viento y presión atmoférica de la zona.
+                Se utilizó HTML, CCS, ReactJs, Axios.
+              </p>
+            </div>
+            <div class="back">
+              <a
+                class="link__port"
+                href="https://weather-app-nz.netlify.app/"
+                target="_blank"
+                ><i class="bi bi-browser-chrome icon-port"></i>
+                <h2 class="subtitle__port">
+                  Desplegar <br />
+                  proyecto
+                </h2></a
+              >
+              <a
+                class="link__port"
+                href="https://github.com/niumarz/weather-app.nz"
+                target="_blank"
+                ><i class="bi bi-github icon-port"></i>
+                <h2 class="subtitle__port">
+                  Abrir <br />
+                  codigo
+                </h2></a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="front">
+              <h2 class="port__title">Users CRUD</h2>
+              <img
+                class="img__port"
+                src="./assets/img/crud.png"
+                alt="screenshot sitio web"
+              />
+              <p class="port__description">
+                Esté es un CRUD (Create, Read, Update, Delete) muy sencillo que simula un centro de control de usuarios, permite la visualizaciónde la información consumida desde una API pública realizando las peticiones mediante Axios.
+               Se desarrolló con React, haciendo uso de
+                useForm, useState y useEffect.
+              </p>
+            </div>
+            <div class="back">
+              <a
+                class="link__port"
+                href="https://crud-user-nzerpa.netlify.app"
+                target="_blank"
+                ><i class="bi bi-browser-chrome icon-port"></i>
+                <h2 class="subtitle__port">
+                  Desplegar <br />
+                  proyecto
+                </h2></a
+              >
+              <a
+                class="link__port"
+                href="https://github.com/niumarz/crud-user.nz.git"
+                target="_blank"
+                ><i class="bi bi-github icon-port"></i>
+                <h2 class="subtitle__port">
+                  Abrir <br />
+                  codigo
+                </h2></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="front">
+            <h2 class="port__title">App Quote Ramdon</h2>
+            <img
+              class="img__port"
+              src="./assets/img/random.png"
+              alt="screenshot de la aplicacion"
+            />
+            <p class="port__description">
+              Aplicacion hecha en React utilizando un archivo json, genera
+              frases y colores aleatorios.
+            </p>
+          </div>
+          <div class="back">
+            <a
+              class="link__port"
+              href="https://quoterandomlfsr.netlify.app/"
+              target="_blank"
+              ><i class="bi bi-browser-chrome icon-port"></i>
+              <h2 class="subtitle__port">
+                Desplegar <br />
+                proyecto
+              </h2></a
+            >
+            <a
+              class="link__port"
+              href="https://github.com/niumarz/Random-Quote-Nz"
+              target="_blank"
+              ><i class="bi bi-github icon-port"></i>
+              <h2 class="subtitle__port">
+                Abrir <br />
+                codigo
+              </h2></a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="container__form">
+          <h2
+            class="form__title wow animate__animated animate__rotateInDownLeft animate__delay-1s textgradient"
+          >
+            Contactame
+          </h2>
+          <p class="form__msg">
+            Estaré atento a tu propuesta.
+          </p>
+          <form
+            action="https://formsubmit.co/niumarzerpa86@gmail.com"
+            method="POST"
+            class="form wow animate__animated animate__slideInUp"
+          >
+            <label class="form__item1" for=""
+              ><input type="text" name="username" placeholder="Nombre" />
+            </label>
+            <label class="form__item2" for=""
+              ><input type="phone" name="number" placeholder="Telefono" />
+            </label>
+            <label class="form__item3" for=""
+              ><input type="email" name="email" placeholder="Correo" />
+            </label>
+            <label class="form__item4" for=""
+              ><input type="text" name="subject" placeholder="asunto" />
+            </label>
+            <textarea
+              class="form__item5"
+              placeholder="Mensaje"
+              name="commit"
+              id=""
+            ></textarea>
+            <input
+              class="btn style-btn btn__form"
+              type="submit"
+              value="Enviar formulario"
+            />
+          </form>
+        </div>
+        <div
+          class="container__datas wow animate__animated animate__zoomInRight animate__delay-1s"
+        >
+          <a
+            target="_blank"
+            href="mailto: luiz_fernando316@hotmail.com"
+            class="data__info"
+          >
+            <i class="bi bi-envelope-fill box"></i
+            ><strong class="data__strong"> Correo: </strong
+            >niumarzerpa86@hotmail.com
+          </a>
+          <a
+            target="_blank"
+            href="https://wa.me/message/F74B2XUM7BXCP1"
+            class="data__info"
+          >
+            <i class="bi bi-telephone-fill box"></i
+            ><strong class="data__strong"> Telefono: </strong>+51970581250
+          </a>
+          <a class="data__info">
+            <i class="bi bi-geo box"></i
+            ><strong class="data__strong"> Chincha, </strong>Perú.
+          </a>
+        </div>
+      </section>
+      <footer>
+        <div class="footer_copy">© 2022 Copyright: NiumarZ.</div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"></script>
+    <script src="./js.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- js particles.js -->
+    <script src="/assets/js/particles.min.js"></script>
+    <script src="/assets/js/appParticles.js"></script>
+  </body>
+</html>
